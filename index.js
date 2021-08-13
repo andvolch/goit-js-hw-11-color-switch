@@ -19,7 +19,7 @@ const randomIntegerFromInterval = (min, max) => {
 };
 
 function onFonChange() {
-    refs.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length)];
+    refs.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
     
 };
 
