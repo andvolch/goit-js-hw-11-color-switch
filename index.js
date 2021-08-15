@@ -40,3 +40,5 @@ function fonChangeStop() {
 
 refs.start.addEventListener('click', fonChangeStart);
 refs.stop.addEventListener('click', fonChangeStop);
+
+
