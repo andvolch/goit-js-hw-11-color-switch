@@ -28,8 +28,9 @@ let id = null;
 function fonChangeStart() {
     id = setInterval(() => {
         onFonChange();
-        refs.start.disabled = true;
+        
     }, 1000);
+    refs.start.disabled = true;
 };
 
 function fonChangeStop() {
